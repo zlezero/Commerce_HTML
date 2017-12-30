@@ -1,4 +1,58 @@
-p 
+html
 {
-    color: green;
+    font-family: 'Lato';
+}
+
+/* === PAGE D'ACCUEIL === */
+
+html #Accueil
+{
+    color: aqua;   
+}
+
+/* === BARRE DE NAVIGATION === */
+
+header
+{
+    box-shadow: 10px 10px 5px grey;
+}
+
+header ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden; 
+} 
+
+header li
+{
+    float: left;
+}
+
+header li a 
+{
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #4CAF50;
+}
+
+header .active {
+    background-color: #4CAF50;
+}
+
+/* === FIN DE PAGE === */
+
+footer
+{
+    background-image: url("images/PlancheDeBois.jpg");
+    background-position: bottom;
+    background-repeat: repeat;
 }
