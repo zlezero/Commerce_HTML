@@ -1,23 +1,40 @@
+/* === GENERAL === */
+
 html
 {
     font-family: 'Lato';
+    margin: 0;
+    padding: 0;
 }
 
-/* === PAGE D'ACCUEIL === */
-
-html #Accueil
+img
 {
-    color: aqua;   
+    border: 1px solid #ccc;
 }
+
+img:hover
+{
+    border: 1px solid #777;
+}
+
+/* === HEADER === */
+
+header
+{
+    text-align: center;
+    background-color: #4CAF50;
+
+}
+
 
 /* === BARRE DE NAVIGATION === */
 
-header
+nav
 {
     box-shadow: 10px 10px 5px grey;
 }
 
-header ul
+nav ul
 {
     list-style-type: none;
     margin: 0;
@@ -26,12 +43,12 @@ header ul
     overflow: hidden; 
 } 
 
-header li
+nav li
 {
     float: left;
 }
 
-header li a 
+nav li a 
 {
     display: block;
     color: #000;
@@ -40,13 +57,42 @@ header li a
     text-decoration: none;
 }
 
-header li a:hover {
+nav li a:hover {
     background-color: #4CAF50;
 }
 
-header .active {
+nav .active {
     background-color: #4CAF50;
 }
+
+/* === PAGE D'ACCUEIL === */
+
+.Main
+{
+    background-image: url("images/PlancheDeBois.jpg");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.Section1
+{
+    margin-left: 50px;
+}
+
+.Section1 h2 
+{
+    color: white;
+    margin-left: 80px;
+}
+
+.Section1 p
+{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+    width: 20%;
+}
+
 
 /* === FIN DE PAGE === */
 
@@ -55,4 +101,6 @@ footer
     background-image: url("images/PlancheDeBois.jpg");
     background-position: bottom;
     background-repeat: repeat;
+    color: white;
+    text-align: center;
 }
