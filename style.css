@@ -23,7 +23,6 @@ header
 {
     text-align: center;
     background-color: #4CAF50;
-
 }
 
 
@@ -69,6 +68,7 @@ nav .active {
 
 .Main
 {
+    padding: 10px;
     background-image: url("images/PlancheDeBois.jpg");
     background-position: center;
     background-repeat: repeat;
@@ -87,6 +87,8 @@ nav .active {
 
 .Section1 p
 {
+    padding: 10px;
+    text-align: justify;
     background-color: white;
     border-radius: 10px;
     box-shadow: 6px 6px 6px black;
