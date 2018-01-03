@@ -21,15 +21,29 @@ img:hover
 
 header
 {
-    text-align: center;
     background-color: #4CAF50;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+header h1
+{
+    font-size: 100px;
+    margin: auto;
+}
+
+/* header img
+{
+    margin: 5px;
+} */
 
 /* === BARRE DE NAVIGATION === */
 
 nav
 {
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-shadow: 10px 10px 5px grey;
 }
 
@@ -68,6 +82,7 @@ nav .active {
 
 .Main
 {
+    display: flex;
     padding: 10px;
     background-image: url("images/PlancheDeBois.jpg");
     background-position: center;
@@ -83,6 +98,7 @@ nav .active {
 {
     color: white;
     margin-left: 80px;
+    position: relative;
 }
 
 .Section1 p
