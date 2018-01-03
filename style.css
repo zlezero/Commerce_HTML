@@ -5,6 +5,9 @@ html
     font-family: 'Lato';
     margin: 0;
     padding: 0;
+    background-image: url("images/PlancheDeBois.jpg");
+    background-position: center;
+    background-repeat: repeat;
 }
 
 img
@@ -21,7 +24,9 @@ img:hover
 
 header
 {
-    background-color: #4CAF50;
+    background-image: url("images/Herbe_Background2.jpg");
+    background-position: center;
+    background-repeat: repeat;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -29,6 +34,7 @@ header
 
 header h1
 {
+    color: black;
     font-size: 100px;
     margin: auto;
 }
@@ -96,6 +102,7 @@ nav .active {
 
 .Section1 h2 
 {
+    text-decoration: underline;
     color: white;
     margin-left: 80px;
     position: relative;
@@ -111,14 +118,23 @@ nav .active {
     width: 20%;
 }
 
+/* === PAGE DE CONTACT === */
+
+.Formulaire
+{
+    text-align: center;
+}
+
 
 /* === FIN DE PAGE === */
 
 footer
 {
-    background-image: url("images/PlancheDeBois.jpg");
-    background-position: bottom;
-    background-repeat: repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
     color: white;
     text-align: center;
 }
