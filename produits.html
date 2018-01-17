@@ -2,60 +2,144 @@
 
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Jardin d'Eden - Accueil</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Jardin d'Eden - Nos produits</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.ico" />
+</head>
 
-    <body id="Accueil">
+<body id="Accueil">
 
-        <header>
-            <img src="images/Logo.jpg" id="Logo" alt="Logo" />
-            <h1>Jardin d'Eden</h1>
-        </header>
+    <header>
+        <img src="images/Logo.jpg" id="Logo" alt="Logo" />
+        <h1>Jardin d'Eden</h1>
+    </header>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Accueil</a>
-                </li>
-                <li>
-                    <a href="produits.html" class="active">Nos produits</a>
-                </li>
-                <li>
-                    <a href="producteurs.html">Nos producteurs</a>
-                </li>
-                <li>
-                    <a href="localisation.html">Nous localiser</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="about.html">A propos</a>
-                </li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="produits.html" class="active">Nos produits</a>
+            </li>
+            <li>
+                <a href="producteurs.html">Nos producteurs</a>
+            </li>
+            <li>
+                <a href="localisation.html">Nous localiser</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="about.html">A propos</a>
+            </li>
+        </ul>
+    </nav>
 
-        <section class="Produits">
-            <table>
+    <section class="Produits">
+
+        <h1>Nos produits</h1>
+
+        <table>
+            <thead>
+                <!-- En-tête du tableau -->
                 <tr>
-                    <td><img src="images/Carotte_Negatif.jpg"></td>
-                    <td class="LieuCulture">La FRANCE</td>
-                    <td>JE SAIS PAS</td>
+                    <th>Image du produit</th>
+                    <th>Nom du produit</th>
+                    <th>Lieu de culture</th>
+                    <th>Producteur</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- Corps du tableau -->
+                <tr>
+                    <td>
+                        <img src="images/Produits/Carottes_Bio.jpg">
+                    </td>
+                    <td>Carottes bio</td>
+                    <td class="LieuCulture">
+                        <ul>
+                            <li>Dans un champs</li>
+                            <li>Plaisir</li>
+                            <li>France</li>
+                        </ul>
+                    </td>
+                    <td>Jean-Marc le campagnard</td>
+                    <td>10€ le panier d'1kg</td>
                 </tr>
                 <tr>
-                    <td><img src="images/Produits/Aubergine-Negatif.png"></td>
-                    <td>26 ans</td>
-                    <td>États-Unis</td>
+                    <td>
+                        <img src="images/Produits/Aubergine_Bio.jpg">
+                    </td>
+                    <td>Aubergines bio</td>
+                    <td class="LieuCulture">
+                        <ul>
+                            <li>Dans un champs</li>
+                            <li>Plaisir</li>
+                            <li>France</li>
+                        </ul>
+                    </td>
+                    <td>Jean-Michel L'Agriculteur</td>
+                    <td>20€ le panier d'1kg</td>
                 </tr>
-             </table>
-        </section>
+                <tr>
+                    <td>
+                        <img src="images/Produits/Pommes_Bio.jpg">
+                    </td>
+                    <td>Pommes bio</td>
+                    <td class="LieuCulture">
+                        <ul>
+                            <li>Dans un champs</li>
+                            <li>Plaisir</li>
+                            <li>France</li>
+                        </ul>
+                    </td>
+                    <td>Jean-Michel L'Agriculteur</td>
+                    <td>20€ le panier d'1kg</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/Produits/Poires_Bio.jpg">
+                    </td>
+                    <td>Poires bio</td>
+                    <td class="LieuCulture">
+                        <ul>
+                            <li>Dans un champs</li>
+                            <li>Plaisir</li>
+                            <li>France</li>
+                        </ul>
+                    </td>
+                    <td>Jean-Michel L'Agriculteur</td>
+                    <td>20€ le panier d'1kg</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/Produits/Bananes_Bio.jpg">
+                    </td>
+                    <td>Bananes bio</td>
+                    <td class="LieuCulture">
+                        <ul>
+                            <li>Dans un champs</li>
+                            <li>Plaisir</li>
+                            <li>France</li>
+                        </ul>
+                    </td>
+                    <td>Jean-Michel L'Agriculteur</td>
+                    <td>20€ le panier d'1kg</td>
+                </tr>
+            </tbody>
 
-        <footer id="Accueil_Footer">
-            <p>Copyright Jardin d'Eden Corporation - Tous droits réservés</p>
-        </footer>
-    </body>
+        </table>
+    </section>
+
+    <footer id="Accueil_Footer">
+        <p>Copyright Jardin d'Eden Corporation - Tous droits réservés</p>
+    </footer>
+</body>
 
 </html>

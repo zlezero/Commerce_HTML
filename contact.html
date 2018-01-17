@@ -4,8 +4,9 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Jardin d'Eden - Accueil</title>
+        <title>Jardin d'Eden - Contact</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.ico" />
     </head>
 
     <body id="Accueil">
@@ -39,11 +40,96 @@
         </nav>
 
         <section class="Formulaire">
-            <form action="contact.php">
-                <fieldset>
-                    <input type="text">
+
+
+            <form method="post" action="contact.php">
+
+                <fieldset class="Bloc1">
+
+                    <h1>Merci de donner votre avis sur le site</h1>
+
+                    <label for="nom" class="inline">Votre nom</label> :
+                    <input type="text" name="nom" id="nom" />
+
+                    <label for="qui" class="select_group"> Vous êtes : </label>
+                    <select name="qui">
+                        <option value="Homme">Homme</option>
+                        <option value="Femme">Femme</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <label for="mail">Votre email : </label>
+                    <input type="email" name="mail" id="mail">
+
+                </fieldset>
+
+                <fieldset class="Bloc2">
+
+                    <br>
+
+                    <label for="ameliorer">Votre message : </label>
+
+                    <br>
+
+                    <textarea name="ameliorer" id="ameliorer"></textarea>
+
+                    <br>
+                    <br> Navigation :
+                    <input type="radio" name="navigation" value="Simple" id="Simple" class="radio">
+                    <label for="Simple" class="inline">Très simple </label>
+
+                    <input type="radio" name="navigation" value="Correct" id="Correct">
+                    <label for="Correct" class="inline">Correct </label>
+
+                    <input type="radio" name="navigation" value="Compliquer_Navigation" id="Compliquer_Navigation">
+                    <label for="Compliquer_Navigation" class="inline">Compliquée </label>
+
+                    <br>
+                    <br> Qualité du service :
+                    <input type="radio" name="navigation" value="Simple_Qualite" id="Simple_Qualite" class="radio">
+                    <label for="Simple_Qualite" class="inline">Très simple </label>
+
+                    <input type="radio" name="navigation" value="Correct_Qualite" id="Correct_Qualite">
+                    <label for="Correct_Qualite" class="inline">Correct </label>
+
+                    <input type="radio" name="navigation" value="Compliquer_Qualite" id="Compliquer_Qualite">
+                    <label for="Compliquer_Qualite" class="inline">Compliquée </label>
+
+                    <br>
+                    <br> 
+                    
+                    Qualité du site :
+                    <input type="checkbox" name="qualite" value="Esthétique" id="Esthétique">
+                    <label for="Esthétique" class="inline"> Esthétique </label>
+
+                    <input type="checkbox" name="qualite" value="Clair" id="Clair">
+                    <label for="Clair" class="inline"> Clair </label>
+
+                    <input type="checkbox" name="qualite" value="Pratique" id="Pratique" class="checkbox_group">
+                    <label for="Pratique" class="inline"> Pratique </label>
+
+                    <br>
+                    <br>
+
+                    <label for="Connu"> Comment avez-vous connu ce site : </label>
+
+                    <select name="Connu">
+                        <option value="Presse">Presse</option>
+                        <option value="Internet">Internet</option>
+                        <option value="Autre">Amis ou autres</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <input type="submit" class="Bouton" />
+
                 </fieldset>
             </form>
+
         </section>
 
         <footer id="Accueil_Footer">
