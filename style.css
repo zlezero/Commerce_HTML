@@ -89,7 +89,6 @@ nav .active {
 
 /* === PAGE D'ACCUEIL === */
 
-
 .Main
 {
     margin-left: 30px;
@@ -114,6 +113,19 @@ nav .active {
     flex: 1;
 }
 
+.Fondateur1
+{
+    display: flex;
+    flex: 1;
+}
+
+
+.Fondateur2
+{
+    display: flex;
+    flex: 1;
+}
+
 /* Style général */
 
 .Section1 h2, .Section2 h2
@@ -133,36 +145,43 @@ nav .active {
     width: 55%; 
 }
 
-.Main .Section1 h2, .Main .Section2 h2
+
+.Main .DescriptionMagasin
 {
-    /* margin-left: 100px;
-    position: relative; */
+    margin-left: 75px;
+}
+
+.Main .NosProduits
+{
+    margin-left: 150px;
+}
+
+.Main .Equipe
+{
+    margin-left: 100px;
 }
 
 .Main .Section1 p, .Main .Section2 p
 {
-   /*  position: relative;
-    margin-left: 100px; */
     width: 50%;
 } 
 
-
-
 .Main .Equipe .Section1
 {
-    margin-left: 200px;
+    margin-left: 70px;
+}
+
+.Main .Equipe .Fondateur2
+{
+    margin-top: 20px;
 }
 
 .Main .Equipe img
 {
     border-radius: 50%;
-    /* float: left; */
-     width: 150px;
-    /*height: auto; */
-    /* margin-right: 500px; */
-    vertical-align: middle;
+    width: 150px;
+	height: 150px;
 }
-
 
 .Main h2
 {
