@@ -32,7 +32,7 @@ body
 
 header
 {
-    background-image: url("images/Herbe_Background2.jpg");
+    background-image: url("images/Header/Herbe_Background.jpg");
     background-position: center;
     background-repeat: repeat;
     display: flex;
@@ -100,12 +100,6 @@ nav .active {
     flex: 1;
 }
 
-.Section2
-{
-    flex: 1;
-}
-
-
 .Equipe
 {
     display: flex;
@@ -128,14 +122,14 @@ nav .active {
 
 /* Style général */
 
-.Section1 h2, .Section2 h2
+.Section1 h2
 {
     text-decoration: underline;
     color: white;
     font-size: 50px;
 }
 
-.Section1 p, .Section2 p
+.Section1 p
 {
     padding: 10px;
     text-align: justify;
@@ -161,7 +155,7 @@ nav .active {
     margin-left: 100px;
 }
 
-.Main .Section1 p, .Main .Section2 p
+.Main .Section1 p
 {
     width: 50%;
 } 
@@ -256,7 +250,7 @@ nav .active {
     text-align: center;
 }
 
-.Produits h1
+.Produits h2
 {
     color: white;
     text-decoration: underline;
@@ -347,6 +341,7 @@ nav .active {
 {
     margin-left: auto;
     margin-right: auto;
+    width: 32%;
     background-color: lightgray;
     margin-top: 10px;
     padding: 10px;
