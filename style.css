@@ -157,8 +157,8 @@ nav .active {
 .ImageCentrale img
 {
     margin-top: 150px;
-    margin-left: -120px;
-    width: 300%;
+    margin-left: -270px;
+    width: 350%;
 }
 
 .CircuitCourt
@@ -216,7 +216,7 @@ nav .active {
 
 .Main .Bio h2
 {
-    margin-left: 90px;
+    margin-left: 120px;
 }
 
 .Main .Bio .Bloc_Texte img
@@ -232,19 +232,19 @@ nav .active {
 .Main .Bio .Bloc_Texte p
 {
     width: 110%;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .Main .CircuitCourt .Bloc_Texte img
 {
-    width: 30%;
-    margin-left: 75px;
+    width: 40%;
+    margin-left: 70px;
 }
 
 .Main .CircuitCourt .Bloc_Texte p
 {
+    margin-left: 45px;
 }
-
 
 .Main h2
 {
@@ -436,11 +436,21 @@ nav .active {
     margin-top: 30px;
 }
 
+.Apropos h3, .Apropos p
+{
+    margin-left: 20px;
+}
+
 .Apropos h2
 {
     color: black;
     text-decoration: underline;
     text-align: center;
+}
+
+.Apropos p
+{
+    margin-top: 0px;
 }
 
 /* === FIN DE PAGE === */
