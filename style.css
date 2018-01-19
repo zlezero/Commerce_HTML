@@ -28,6 +28,30 @@ body
     min-height: 100vh;
 }
 
+/* === STYLE APPLICABLE A PLUSIEURS PAGES === */
+
+.Bloc_Texte
+{
+    flex: 1;
+}
+
+.Bloc_Texte h2
+{
+    text-decoration: underline;
+    color: white;
+    font-size: 50px;
+}
+
+.Bloc_Texte p
+{
+    padding: 10px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+    width: 55%; 
+}
+
 /* === HEADER === */
 
 header
@@ -95,11 +119,6 @@ nav .active {
     display: flex;
 }
 
-.Bloc_Texte
-{
-    flex: 1;
-}
-
 .Equipe
 {
     display: flex;
@@ -118,23 +137,6 @@ nav .active {
 {
     display: flex;
     flex: 1;
-}
-
-.Bloc_Texte h2
-{
-    text-decoration: underline;
-    color: white;
-    font-size: 50px;
-}
-
-.Bloc_Texte p
-{
-    padding: 10px;
-    text-align: justify;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px black;
-    width: 55%; 
 }
 
 .Main .DescriptionMagasin
@@ -179,65 +181,6 @@ nav .active {
     text-decoration: underline;
     color: white;
     font-size: 50px;
-}
-
-/* === PAGE DE CONTACT === */
-
-.Formulaire
-{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Formulaire h2
-{
-    text-align: center;
-    color: black;
-}
-
-.Formulaire input
-{
-    border: 1px solid grey;
-	border-radius: 4px;
-}
-
-.Formulaire label.inline
-{
-    display: inline-block;
-}
-
-.Formulaire textarea
-{
-    width: 100%;
-    height: 100px;
-    margin-top: 3px;
-    resize: none;
-}
-
-.Formulaire label.select_group
-{
-	margin-left: 20px;
-}
-
-.Formulaire .Bouton
-{
-    width: 10%;
-    height: 20px;
-    border: 1px solid orangered;
-}
-
-.Formulaire .Bouton:hover
-{
-    border: 2px solid orangered;
-}
-
-.Formulaire fieldset
-{
-    background: lightgrey;
-    margin-top: 30px;
-    text-decoration: none;
-    border: 1px solid black;
 }
 
 /* === PAGE DES PRODUITS === */
@@ -363,6 +306,65 @@ nav .active {
 {
     color: white;
     text-decoration: underline;
+}
+
+/* === PAGE DE CONTACT === */
+
+.Formulaire
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Formulaire h2
+{
+    text-align: center;
+    color: black;
+}
+
+.Formulaire input
+{
+    border: 1px solid grey;
+	border-radius: 4px;
+}
+
+.Formulaire label.inline
+{
+    display: inline-block;
+}
+
+.Formulaire textarea
+{
+    width: 100%;
+    height: 100px;
+    margin-top: 3px;
+    resize: none;
+}
+
+.Formulaire label.select_group
+{
+	margin-left: 20px;
+}
+
+.Formulaire .Bouton
+{
+    width: 10%;
+    height: 20px;
+    border: 1px solid orangered;
+}
+
+.Formulaire .Bouton:hover
+{
+    border: 2px solid orangered;
+}
+
+.Formulaire fieldset
+{
+    background: lightgrey;
+    margin-top: 30px;
+    text-decoration: none;
+    border: 1px solid black;
 }
 
 /* === FIN DE PAGE === */
