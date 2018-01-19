@@ -42,7 +42,7 @@ body
     font-size: 50px;
 }
 
-.Bloc_Texte p
+.Bloc_Texte p, .Bloc_Texte ul
 {
     padding: 10px;
     text-align: justify;
@@ -154,19 +154,19 @@ nav .active {
     margin-left: 100px;
 }
 
-.Main .Bloc_Texte p
-{
-    width: 50%;
-} 
-
 .Main .Equipe .Bloc_Texte
 {
     margin-left: 70px;
 }
 
+.Main .Equipe p
+{
+    margin-top: 30px;
+}
+
 .Main .Equipe .Fondateur2
 {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .Main .Equipe img
