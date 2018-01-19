@@ -42,7 +42,7 @@ body
     font-size: 50px;
 }
 
-.Bloc_Texte p, .Bloc_Texte ul
+.Bloc_Texte p, .Bloc_Texte ul, .Bloc_Texte img
 {
     padding: 10px;
     text-align: justify;
@@ -50,6 +50,11 @@ body
     border-radius: 10px;
     box-shadow: 6px 6px 6px black;
     width: 55%; 
+}
+
+.Bloc_Texte img
+{
+    width: 50%;
 }
 
 /* === HEADER === */
@@ -117,6 +122,7 @@ nav .active {
 {
     margin-left: 30px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Equipe
@@ -132,21 +138,43 @@ nav .active {
     flex: 1;
 }
 
-
 .Fondateur2
 {
     display: flex;
     flex: 1;
 }
 
-.Main .DescriptionMagasin
+.SecondeLigne
+{
+    display: flex;
+}
+
+.Bio
+{
+    flex-shrink: 1.1;
+}
+
+.ImageCentrale img
+{
+    margin-top: 150px;
+    margin-left: -120px;
+    width: 300%;
+}
+
+.CircuitCourt
+{
+    margin-left: 300px;
+    flex-shrink: 1;
+}
+
+.Main .DescriptionMagasin, .Main .Bio
 {
     margin-left: 75px;
 }
 
 .Main .NosProduits
 {
-    margin-left: 150px;
+    margin-left: 60px;
 }
 
 .Main .Equipe
@@ -169,12 +197,54 @@ nav .active {
     margin-top: 40px;
 }
 
+.Main .Bloc_Texte .NosProduits h2
+{
+    margin-left: 80px;
+}
+
+.Main .Bloc_Texte .NosProduits img, .Main .Bloc_Texte .NosProduits p
+{
+    margin-left: 85px;
+}
+
 .Main .Equipe img
 {
     border-radius: 50%;
     width: 150px;
 	height: 150px;
 }
+
+.Main .Bio h2
+{
+    margin-left: 90px;
+}
+
+.Main .Bio .Bloc_Texte img
+{
+    margin-left: 120px;
+}
+
+.Main .Bio .Bloc_Texte
+{
+    width: 40%;
+}
+
+.Main .Bio .Bloc_Texte p
+{
+    width: 110%;
+    margin-left: 50px;
+}
+
+.Main .CircuitCourt .Bloc_Texte img
+{
+    width: 30%;
+    margin-left: 75px;
+}
+
+.Main .CircuitCourt .Bloc_Texte p
+{
+}
+
 
 .Main h2
 {
@@ -295,19 +365,6 @@ nav .active {
     font-size: 35px;
 }
 
-/* === PAGE DE L'A PROPOS === */
-
-.Apropos .Bloc_Texte 
-{
-    width: 50%;
-}
-
-.Apropos h2
-{
-    color: white;
-    text-decoration: underline;
-}
-
 /* === PAGE DE CONTACT === */
 
 .Formulaire
@@ -365,6 +422,25 @@ nav .active {
     margin-top: 30px;
     text-decoration: none;
     border: 1px solid black;
+}
+
+/* === PAGE DE L'A PROPOS === */
+
+.Apropos 
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.Apropos h2
+{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
 }
 
 /* === FIN DE PAGE === */
