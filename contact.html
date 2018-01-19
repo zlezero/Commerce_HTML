@@ -12,7 +12,7 @@
     <body id="Accueil">
 
         <header>
-            <img src="images/Logo.jpg" id="Logo" alt="Logo" />
+           <img src="images/Logo.jpg" id="Logo" alt="Logo" />
             <h1>Jardin d'Eden</h1>
         </header>
 
@@ -45,10 +45,10 @@
 
                 <fieldset class="Bloc1">
 
-                    <h2>Merci de donner votre avis sur le site</h2>
+                    <h2>Contacter un producteur / Donner votre avis sur le site</h2>
 
                     <label for="nom" class="inline">Votre nom</label> :
-                    <input type="text" name="nom" id="nom" />
+                    <input type="text" name="nom" id="nom" required />
 
                     <label class="select_group"> Vous êtes : </label>
                     <select name="qui">
@@ -61,13 +61,16 @@
                     <br>
 
                     <label for="mail">Votre email : </label>
-                    <input type="email" name="mail" id="mail">
+                    <input type="email" name="mail" id="mail" required>
 
                 </fieldset>
                 
                 <fieldset class="Bloc2">
 
-                    <label class="select_group">Choix du producteur : </label>
+                    <h2>Contacter un producteur</h2>
+
+                    <label for="Producteur" >Choix du producteur : </label>
+
                     <select name="Producteur">
                         <option value="Alex">Alex</option>
                         <option value="Christophe">Christophe</option>
@@ -77,13 +80,24 @@
                         <option value="HeleneStephaneChristine">Christine, Stéphane et Hélène</option>
                     </select>
 
+                    <br>
+                    <br>
+
+                    <label for="Message_Producteur">Votre message : </label>
+                    <textarea name="Message_Producteur" id="Message_Producteur"></textarea>
+
+                    <br>
+                    <br>
+
+                    <input type="submit" class="Bouton" value="Envoyer" />
+
                 </fieldset>
 
                 <fieldset class="Bloc3">
 
-                    <br>
+                    <h2>Votre avis sur le site</h2>
 
-                    <label for="ameliorer">Votre message : </label>
+                    <label for="ameliorer">Votre avis : </label>
 
                     <br>
 
@@ -138,7 +152,7 @@
                     <br>
                     <br>
 
-                    <input type="submit" class="Bouton" />
+                    <input type="submit" class="Bouton" value="Envoyer" />
 
                 </fieldset>
             </form>
