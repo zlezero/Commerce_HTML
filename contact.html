@@ -2,21 +2,21 @@
 
 <html>
 
-    <head>
+    <head> <!-- Métadonnées -->
         <meta charset="utf-8">
         <title>Jardin d'Eden - Contact</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="favicon.ico" />
     </head>
 
-    <body id="Accueil">
+    <body> <!-- Contenu principal -->
 
-        <header>
-           <img src="images/Header/Logo.jpg" id="Logo" alt="Logo" />
+        <header> <!-- Entête -->
+            <img src="images/Header/Logo.jpg" id="Logo" alt="Logo" />
             <h1>Jardin d'Eden</h1>
         </header>
 
-        <nav>
+        <nav> <!-- Menu de navigation -->
             <ul>
                 <li>
                     <a href="index.html">Accueil</a>
@@ -39,11 +39,11 @@
             </ul>
         </nav>
 
-        <section class="Formulaire">
+        <section class="Formulaire"> <!-- Affichage du formulaire de légende -->
 
-            <form method="post" action="contact.html">
+            <form method="post" action="contact.html"> <!-- Debut du formulaire de contact -->
 
-                <fieldset class="Bloc1">
+                <fieldset class="Bloc1"> <!-- Bloc 1 - Informations générales -->
 
                     <h2>Contacter un producteur / Donner votre avis sur le site</h2>
 
@@ -51,6 +51,7 @@
                     <input type="text" name="nom" id="nom" required />
 
                     <label class="select_group"> Vous êtes : </label>
+
                     <select name="qui">
                         <option value="Homme">Homme</option>
                         <option value="Femme">Femme</option>
@@ -64,8 +65,8 @@
                     <input type="email" name="mail" id="mail" required>
 
                 </fieldset>
-                
-                <fieldset class="Bloc2">
+
+                <fieldset class="Bloc2"> <!-- Bloc 2 - Contact avec un producteur -->
 
                     <h2>Contacter un producteur</h2>
 
@@ -93,7 +94,7 @@
 
                 </fieldset>
 
-                <fieldset class="Bloc3">
+                <fieldset class="Bloc3"> <!-- Bloc 3 - Sondage sur la qualité du site -->
 
                     <h2>Votre avis sur le site</h2>
 
@@ -104,7 +105,9 @@
                     <textarea name="ameliorer" id="ameliorer"></textarea>
 
                     <br>
-                    <br> Navigation :
+                    <br> 
+
+                    Navigation :
                     <input type="radio" name="navigation" value="Simple" id="Simple" class="radio">
                     <label for="Simple" class="inline">Très simple </label>
 
@@ -115,7 +118,9 @@
                     <label for="Compliquer_Navigation" class="inline">Compliquée </label>
 
                     <br>
-                    <br> Qualité du service :
+                    <br> 
+
+                    Qualité du service :
                     <input type="radio" name="navigation" value="Simple_Qualite" id="Simple_Qualite" class="radio">
                     <label for="Simple_Qualite" class="inline">Très simple </label>
 
@@ -127,7 +132,7 @@
 
                     <br>
                     <br> 
-                    
+
                     Qualité du site :
                     <input type="checkbox" name="qualite" value="Esthétique" id="Esthétique">
                     <label for="Esthétique" class="inline"> Esthétique </label>
@@ -155,13 +160,15 @@
                     <input type="submit" class="Bouton" value="Envoyer" />
 
                 </fieldset>
+
             </form>
 
         </section>
 
-        <footer id="Accueil_Footer">
+        <footer id="Accueil_Footer"> <!-- Pied de page -->
             <p>Copyright Jardin d'Eden Corporation - Tous droits réservés</p>
         </footer>
+        
     </body>
 
 </html>

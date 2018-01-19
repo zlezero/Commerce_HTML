@@ -95,7 +95,7 @@ nav .active {
     display: flex;
 }
 
-.Section1
+.Bloc_Texte
 {
     flex: 1;
 }
@@ -120,16 +120,14 @@ nav .active {
     flex: 1;
 }
 
-/* Style général */
-
-.Section1 h2
+.Bloc_Texte h2
 {
     text-decoration: underline;
     color: white;
     font-size: 50px;
 }
 
-.Section1 p
+.Bloc_Texte p
 {
     padding: 10px;
     text-align: justify;
@@ -138,7 +136,6 @@ nav .active {
     box-shadow: 6px 6px 6px black;
     width: 55%; 
 }
-
 
 .Main .DescriptionMagasin
 {
@@ -155,12 +152,12 @@ nav .active {
     margin-left: 100px;
 }
 
-.Main .Section1 p
+.Main .Bloc_Texte p
 {
     width: 50%;
 } 
 
-.Main .Equipe .Section1
+.Main .Equipe .Bloc_Texte
 {
     margin-left: 70px;
 }
@@ -305,7 +302,7 @@ nav .active {
     overflow-x: hidden;
 }
 
-#Producteurs .Section1
+#Producteurs .Bloc_Texte
 {
     margin-left: 125px;
     width: 100%;
@@ -357,7 +354,7 @@ nav .active {
 
 /* === PAGE DE L'A PROPOS === */
 
-.Apropos .Section1 
+.Apropos .Bloc_Texte 
 {
     width: 50%;
 }

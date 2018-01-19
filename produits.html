@@ -2,218 +2,220 @@
 
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Jardin d'Eden - Nos produits</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon.ico" />
-</head>
+    <head> <!-- Métadonnées -->
+        <meta charset="utf-8">
+        <title>Jardin d'Eden - Nos produits</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.ico" />
+    </head>
 
-<body id="Accueil">
+    <body> <!-- Contenu principal -->
 
-    <header>
-        <img src="images/Header/Logo.jpg" id="Logo" alt="Logo" />
-        <h1>Jardin d'Eden</h1>
-    </header>
+        <header>  <!-- Entête -->
+            <img src="images/Header/Logo.jpg" id="Logo" alt="Logo" />
+            <h1>Jardin d'Eden</h1>
+        </header>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Accueil</a>
-            </li>
-            <li>
-                <a href="produits.html" class="active">Nos produits</a>
-            </li>
-            <li>
-                <a href="producteurs.html">Nos producteurs</a>
-            </li>
-            <li>
-                <a href="localisation.html">Nous localiser</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="about.html">A propos</a>
-            </li>
-        </ul>
-    </nav>
+        <nav> <!-- Menu de navigation -->  
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="produits.html" class="active">Nos produits</a>
+                </li>
+                <li>
+                    <a href="producteurs.html">Nos producteurs</a>
+                </li>
+                <li>
+                    <a href="localisation.html">Nous localiser</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">A propos</a>
+                </li>
+            </ul>
+        </nav>
 
-    <section class="Produits">
+        <section class="Produits"> <!-- Affichage des différents produits --> 
 
-        <h2>Nos produits</h2>
+            <h2>Nos produits</h2>
 
-        <form method="post" action="produits.html">
-            <table>
-                <thead>
-                    <!-- En-tête du tableau -->
-                    <tr>
-                        <th>Image du produit</th>
-                        <th>Nom du produit</th>
-                        <th>Variétés disponibles</th>
-                        <th>Lieu de culture</th>
-                        <th>Producteur</th>
-                        <th>Prix</th>
-                        <th>Achat</th>
-                    </tr>
-                </thead>
+            <form method="post" action="produits.html"> <!-- Formulaire pour le choix des variétés des produits ainsi que leur achat -->
 
-                <tbody>
-                    <!-- Corps du tableau -->
-                    <tr>
-                        <td>
-                            <img src="images/Produits/Carottes_Bio.jpg" alt="Carottes biologiques">
-                        </td>
-                        <td>Carottes bio</td>
-                        <td>
-                            <label>Choisissez une variété :</label>
-                            <br>
-                            <select name="Varietes_Carottes">
-                                <option value="Colmar">Colmar à coeur rouge</option>
-                                <option value="Flyaway">Flyaway</option>
-                                <option value="Nandor">Nandor</option>
-                                <option value="Nantaise">Nantaise</option>
-                            </select>
-                        </td>
-                        <td class="LieuCulture">
-                            <ul>
-                                <li>Finistère</li>
-                                <li>Bretagne</li>
-                                <li>France</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <a href="producteurs.html#Alex">Alex</a>
-                        </td>
-                        <td>4.99€ le panier d'1kg</td>
-                        <td>
-                            <input type="submit" value="Acheter le produit">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="images/Produits/Aubergine_Bio.jpg" alt="Aubergines biologiques">
-                        </td>
-                        <td>Aubergines bio</td>
-                        <td>
-                            <label>Choisissez une variété :</label>
-                            <br>
-                            <select name="Varietes_Aubergines">
-                                <option value="Aomaro">Aomaro</option>
-                                <option value="Black_Beauty">Black Beauty</option>
-                                <option value="Bonica">Bonica</option>
-                                <option value="Gascona">Gascona</option>
-                            </select>
-                        </td>
-                        <td class="LieuCulture">
-                            <ul>
-                                <li>Paris</li>
-                                <li>Île-de-France</li>
-                                <li>France</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <a href="producteurs.html#Sandrine">Sandrine</a>
-                        </td>
-                        <td>6.99€ le panier d'1kg</td>
-                        <td>
-                            <input type="submit" value="Acheter le produit">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="images/Produits/Pommes_Bio.jpg" alt="Pommes biologiques">
-                        </td>
-                        <td>Pommes bio</td>
-                        <td>
-                            <label>Choisissez une variété :</label>
-                            <br>
-                            <select name="Varietes_Pommes">
-                                <option value="Akane">Akane</option>
-                                <option value="Ariane">Ariane</option>
-                                <option value="Belle_de_Boskoop">Belle de Boskoop</option>
-                                <option value="Braeburn">Braeburn</option>
-                            </select>
-                        </td>
-                        <td class="LieuCulture">
-                            <ul>
-                                <li>Normandie</li>
-                                <li>France</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <a href="producteurs.html#Erwan">Erwan</a>
-                        </td>
-                        <td>2.99€ le panier d'1kg</td>
-                        <td>
-                            <input type="submit" value="Acheter le produit">
+                <table> <!-- Début du tableau -->
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="images/Produits/Poires_Bio.jpg" alt="Poires biologiques">
-                        </td>
-                        <td>Poires bio</td>
-                        <td>
-                            <label>Choisissez une variété :</label>
-                            <br>
-                            <select name="Varietes_Poires">
-                                <option value="Guyot">Guyot</option>
-                                <option value="Williams">Williams</option>
-                                <option value="Angelys">Angélys</option>
-                                <option value="Conference">Conférence</option>
-                            </select>
-                        </td>
-                        <td class="LieuCulture">
-                            <ul>
-                                <li>Lorraine</li>
-                                <li>France</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <a href="producteurs.html#Christophe">Christophe</a>
-                        </td>
-                        <td>3.99€ le panier d'1kg</td>
-                        <td>
-                            <input type="submit" value="Acheter le produit">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="images/Produits/Bananes_Bio.jpg" alt="Bananes Biologiques">
-                        </td>
-                        <td>Bananes bio</td>
-                        <td>
-                            <label>Choisissez une variété :</label>
-                            <br>
-                            <select name="Varietes_Bananes">
-                                <option value="Cavendish">La Cavendish</option>
-                            </select>
-                        </td>
-                        <td class="LieuCulture">
-                            <ul>
-                                <li>Canaries</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <a href="producteurs.html#HeleneStephaneChristine">Hélène, Stéphane et Christine</a>
-                        </td>
-                        <td>3.99€ le panier d'1kg</td>
-                        <td>
-                            <input type="submit" value="Acheter le produit">
-                        </td>
-                    </tr>
-                </tbody>
+                    <thead> <!-- En-tête du tableau -->             
+                        <tr>
+                            <th>Image du produit</th>
+                            <th>Nom du produit</th>
+                            <th>Variétés disponibles</th>
+                            <th>Lieu de culture</th>
+                            <th>Producteur</th>
+                            <th>Prix</th>
+                            <th>Achat</th>
+                        </tr>
+                    </thead>
 
-            </table>
-        </form>
+                    <tbody> <!-- Corps du tableau -->                
+                        <tr>
+                            <td>
+                                <img src="images/Produits/Carottes_Bio.jpg" alt="Carottes biologiques">
+                            </td>
+                            <td>Carottes bio</td>
+                            <td>
+                                <label>Choisissez une variété :</label>
+                                <br>
+                                <select name="Varietes_Carottes">
+                                    <option value="Colmar">Colmar à coeur rouge</option>
+                                    <option value="Flyaway">Flyaway</option>
+                                    <option value="Nandor">Nandor</option>
+                                    <option value="Nantaise">Nantaise</option>
+                                </select>
+                            </td>
+                            <td class="LieuCulture">
+                                <ul>
+                                    <li>Finistère</li>
+                                    <li>Bretagne</li>
+                                    <li>France</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <a href="producteurs.html#Alex">Alex</a>
+                            </td>
+                            <td>4.99€ le panier d'1kg</td>
+                            <td>
+                                <input type="submit" value="Acheter le produit">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/Produits/Aubergine_Bio.jpg" alt="Aubergines biologiques">
+                            </td>
+                            <td>Aubergines bio</td>
+                            <td>
+                                <label>Choisissez une variété :</label>
+                                <br>
+                                <select name="Varietes_Aubergines">
+                                    <option value="Aomaro">Aomaro</option>
+                                    <option value="Black_Beauty">Black Beauty</option>
+                                    <option value="Bonica">Bonica</option>
+                                    <option value="Gascona">Gascona</option>
+                                </select>
+                            </td>
+                            <td class="LieuCulture">
+                                <ul>
+                                    <li>Paris</li>
+                                    <li>Île-de-France</li>
+                                    <li>France</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <a href="producteurs.html#Sandrine">Sandrine</a>
+                            </td>
+                            <td>6.99€ le panier d'1kg</td>
+                            <td>
+                                <input type="submit" value="Acheter le produit">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/Produits/Pommes_Bio.jpg" alt="Pommes biologiques">
+                            </td>
+                            <td>Pommes bio</td>
+                            <td>
+                                <label>Choisissez une variété :</label>
+                                <br>
+                                <select name="Varietes_Pommes">
+                                    <option value="Akane">Akane</option>
+                                    <option value="Ariane">Ariane</option>
+                                    <option value="Belle_de_Boskoop">Belle de Boskoop</option>
+                                    <option value="Braeburn">Braeburn</option>
+                                </select>
+                            </td>
+                            <td class="LieuCulture">
+                                <ul>
+                                    <li>Normandie</li>
+                                    <li>France</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <a href="producteurs.html#Erwan">Erwan</a>
+                            </td>
+                            <td>2.99€ le panier d'1kg</td>
+                            <td>
+                                <input type="submit" value="Acheter le produit">
 
-    </section>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/Produits/Poires_Bio.jpg" alt="Poires biologiques">
+                            </td>
+                            <td>Poires bio</td>
+                            <td>
+                                <label>Choisissez une variété :</label>
+                                <br>
+                                <select name="Varietes_Poires">
+                                    <option value="Guyot">Guyot</option>
+                                    <option value="Williams">Williams</option>
+                                    <option value="Angelys">Angélys</option>
+                                    <option value="Conference">Conférence</option>
+                                </select>
+                            </td>
+                            <td class="LieuCulture">
+                                <ul>
+                                    <li>Lorraine</li>
+                                    <li>France</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <a href="producteurs.html#Christophe">Christophe</a>
+                            </td>
+                            <td>3.99€ le panier d'1kg</td>
+                            <td>
+                                <input type="submit" value="Acheter le produit">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/Produits/Bananes_Bio.jpg" alt="Bananes Biologiques">
+                            </td>
+                            <td>Bananes bio</td>
+                            <td>
+                                <label>Choisissez une variété :</label>
+                                <br>
+                                <select name="Varietes_Bananes">
+                                    <option value="Cavendish">La Cavendish</option>
+                                </select>
+                            </td>
+                            <td class="LieuCulture">
+                                <ul>
+                                    <li>Canaries</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <a href="producteurs.html#HeleneStephaneChristine">Hélène, Stéphane et Christine</a>
+                            </td>
+                            <td>3.99€ le panier d'1kg</td>
+                            <td>
+                                <input type="submit" value="Acheter le produit">
+                            </td>
+                        </tr>
+                    </tbody>
 
-    <footer id="Accueil_Footer">
-        <p>Copyright Jardin d'Eden Corporation - Tous droits réservés</p>
-    </footer>
-</body>
+                </table>
+
+            </form>
+
+        </section>
+
+        <footer id="Accueil_Footer"> <!-- Pied de page -->
+            <p>Copyright Jardin d'Eden Corporation - Tous droits réservés</p>
+        </footer>
+
+    </body>
 
 </html>
