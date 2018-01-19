@@ -92,9 +92,27 @@ nav .active {
 
 .Main
 {
+    margin-left: 30px;
     display: flex;
 }
 
+.Section1
+{
+    flex: 1;
+}
+
+.Section2
+{
+    flex: 1;
+}
+
+
+.Equipe
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
 /* Style général */
 
@@ -115,52 +133,38 @@ nav .active {
     width: 55%; 
 }
 
-/* Haut de la page d'accueil */
-
- .Haut
-{   
-    padding: 10px;
-    justify-content: flex-start;
+.Main .Section1 h2, .Main .Section2 h2
+{
+    /* margin-left: 100px;
+    position: relative; */
 }
 
-.Haut .Section1 h2, .Haut .Section2 h2
+.Main .Section1 p, .Main .Section2 p
 {
-    margin-left: 100px;
-    position: relative;
-}
-
-.Haut .Section1 p, .Haut .Section2 p
-{
-    position: relative;
-    margin-left: 100px;
+   /*  position: relative;
+    margin-left: 100px; */
     width: 50%;
 } 
 
-/* Bas de la page d'accueil */
 
-.Equipe
+
+.Main .Equipe .Section1
 {
-    margin-top: 110px;
+    margin-left: 200px;
 }
 
-.Equipe img
+.Main .Equipe img
 {
     border-radius: 50%;
     /* float: left; */
-    width: 150px;
-    height: auto;
-    margin-right: 500px;
+     width: 150px;
+    /*height: auto; */
+    /* margin-right: 500px; */
+    vertical-align: middle;
 }
 
-.Equipe .Description
-{
 
-    margin-right: 100px;
-   /*  position: relative;
-    margin-left: 50px; */
-} 
-
-.Equipe h2
+.Main h2
 {
     text-decoration: underline;
     color: white;
@@ -335,6 +339,19 @@ nav .active {
     text-align: center;
     text-decoration: underline;
     font-size: 35px;
+}
+
+/* === PAGE DE L'A PROPOS === */
+
+.Apropos .Section1 
+{
+    width: 50%;
+}
+
+.Apropos h2
+{
+    color: white;
+    text-decoration: underline;
 }
 
 /* === FIN DE PAGE === */
